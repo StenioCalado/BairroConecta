@@ -40,6 +40,11 @@ export const Route = createRootRoute({
         rel: "stylesheet",
         href: appCss,
       },
+      {
+        rel: "icon",
+        href: "/multiple-users-silhouette.png",
+        type: "image/png",
+    },
     ],
   }),
   shellComponent: RootShell,
